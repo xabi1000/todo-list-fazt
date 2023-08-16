@@ -12,7 +12,7 @@
 Make sure you have Node.js installed on your system.
 
 - How to Start the Project
-- Clone this repository: git clone https://github.com/your-username/your-project.git
+- Clone this repository: git clone https://github.com/xabi1000/todo-list-fazt
 - Go to the project directory: cd your-project
 - Install dependencies: pnpm install
 - Launch the application: pnpm run dev
