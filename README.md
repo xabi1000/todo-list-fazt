@@ -1,5 +1,7 @@
 # Svelte Project: Product Card Generator
 
+Project website: https://shiny-tulumba-6cf8cb.netlify.app/
+
 ## Features
 
 1. Form with two input fields: product name and product description.
