@@ -57,6 +57,7 @@
 </script>
 
 <main>
+	<h1>Products Todo List</h1>
 	<section class="products">
 		{#each allProducts as { productName, productDescription, category, id }, i}
 			<Card {productName} {productDescription} {category} {id} on:remove={deleted} on:edit={edit} />
@@ -68,10 +69,15 @@
 <style>
 	main {
 		display: grid;
-		grid-template-rows: 1fr min-content;
+		grid-template-rows: min-content 1fr min-content;
 		gap: 2rem;
 		min-height: 100vh;
 		padding: 2rem;
+	}
+	h1 {
+		text-align: center;
+		font-size: 2em;
+		text-decoration: underline;
 	}
 
 	.products {
